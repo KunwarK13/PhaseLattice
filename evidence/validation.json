@@ -1,0 +1,92 @@
+{
+  "schema": "phaselattice.validation/v1",
+  "unit_and_integration_tests": {
+    "passed": 24,
+    "skipped": 0,
+    "command": "python -m pytest -q"
+  },
+  "isolated_installed_wheel": {
+    "passed": 16,
+    "optional_dependency_skips": 8,
+    "executed_outside_checkout": true,
+    "package_payload_matches_final_wheel": true,
+    "versions": {
+      "numpy": "2.4.6",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0",
+      "fpylll": "0.6.4",
+      "cysignals": "1.12.5",
+      "pytest": "9.0.2"
+    }
+  },
+  "notebook": {
+    "executed_cells": 8,
+    "errors": 0,
+    "sha256": "20c67d273bd087ae9ab0a6b7e3afa9db9d4747b51565301b8b6d344da0ece1bd"
+  },
+  "qiskit_demo": {
+    "recovered": true,
+    "trace_valid": true,
+    "test_mse_over_variance": 1.867292485310148e-23,
+    "shifted_inputs": {
+      "distribution": "N(2*ones,I)",
+      "points": 256,
+      "output_relative_rms_error": 7.2476213664680554e-12,
+      "gradient_relative_rms_error": 9.05770809100547e-12,
+      "hvp_relative_rms_error": 1.0123767757355411e-11
+    },
+    "qiskit": {
+      "points": 8,
+      "max_circuit_difference": 4.0394354527961696e-12,
+      "gradient_relative_rms_error": 1.189357962418782e-11,
+      "max_gradient_difference": 2.503810492271441e-10,
+      "difference_step": 0.0001,
+      "original_circuit_evaluations": 136
+    }
+  },
+  "package": {
+    "wheel": "phaselattice-0.1.0-py3-none-any.whl",
+    "wheel_sha256": "a3ce04cad49c1737e5920cfe6c9f907b953171f154a34593ea80e129c0e8bd5b",
+    "source_distribution_built": true
+  },
+  "evidence_audit_sha256": "d40a06a06d67d0fd7d8b94fa3b1019202f201fe8ec98256b4c788ec7c6af83bc",
+  "source_tests_sha256": {
+    "tests/conftest.py": "f4868683be3b11cc253d29acb95e924a2b8b0221b89031659ca22fd0253950a1",
+    "tests/test_integrations.py": "5591da2e3eb1f01599ddfec442b67e03ea22009ee4c40e28e51bb8038febeaeb",
+    "tests/test_numerics.py": "02b993a614a19aa16b93c77399293eb49fa7fa96dcd8b811eec906deb2c21312",
+    "tests/test_reconstruction.py": "9a59e00cdad50378b1b8a6444d2fbc27b3b49f71b49bed4ab4a6b52cb8930ca8"
+  },
+  "quality_checks": [
+    "Ruff lint and formatting",
+    "Relative documentation links",
+    "Five scientific figures inspected visually",
+    "Repository and compressed payload naming audit",
+    "Source documentation audit: six rejection checks"
+  ],
+  "ci_status": "GitHub Actions is configured for pushes and pull requests; run results are available on the repository Actions page",
+  "animation": {
+    "manifest_sha256": "713916fd16ea2ef3a8b0a8283531e0b111c4a9ac4b6ba813b828ec9cf57fd1d8",
+    "gif_seconds": 8,
+    "gif_size": [
+      1024,
+      576
+    ],
+    "video_seconds": 8,
+    "video_size": [
+      1920,
+      1080
+    ],
+    "video_frames": 192,
+    "gif_bytes": 678088,
+    "checked": [
+      "Verified trace and selected observations",
+      "Initial and final plot coordinates agree with saved data",
+      "Eight encoded keyframes inspected",
+      "GIF loop and exact eight-second duration",
+      "H.264 video dimensions, duration and frame count",
+      "Constant background color across all GIF frames",
+      "Media byte digests match manifest"
+    ]
+  },
+  "ci_url": "https://github.com/KunwarK13/PhaseLattice/actions"
+}

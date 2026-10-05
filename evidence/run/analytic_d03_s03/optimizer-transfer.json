@@ -1,0 +1,37 @@
+{
+  "method": "optimizer-transfer",
+  "status": "FITTED",
+  "model": {
+    "k": [
+      3,
+      0,
+      -1
+    ],
+    "Q": 4,
+    "theta": [
+      "3212360577211223/2251799813685248",
+      "-7898446976573877/1152921504606846976",
+      "4174890546821249/9007199254740992"
+    ]
+  },
+  "best_validation_mse": 4.596190277269371e-24,
+  "seconds": 20.248470078222454,
+  "additional_seconds": 3.7829152499325573,
+  "seeds": 8,
+  "harmonic_ratios": [
+    0.3333333333333333,
+    0.5,
+    0.6666666666666666,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "device": "cuda",
+  "public_sha256": "03d9c32baf2d41f57f7ebb4975563d581ecbda578e5503bd49f0525ba60d1a23",
+  "initial_methods": [
+    "multistart-lm",
+    "phase-projection"
+  ],
+  "uses_oracle": false
+}

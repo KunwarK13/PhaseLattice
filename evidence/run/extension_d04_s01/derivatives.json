@@ -1,0 +1,118 @@
+{
+  "seed": 951037,
+  "rows": [
+    {
+      "id": "extension_d04_s01",
+      "method": "reconstruction",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.3906206802464005e-12,
+          "gradient_relative_rms_error": 1.8863061418216153e-12,
+          "hvp_relative_rms_error": 2.1078439686768584e-12
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.692812683602711e-12,
+          "gradient_relative_rms_error": 4.826866434143973e-12,
+          "hvp_relative_rms_error": 7.251400303909694e-12
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.3808937593229329e-12,
+          "gradient_relative_rms_error": 1.822571462659702e-12,
+          "hvp_relative_rms_error": 1.884563712034593e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 2.6372419760635137e-12,
+          "gradient_relative_rms_error": 3.0473539019142972e-12,
+          "hvp_relative_rms_error": 3.723556736187789e-12
+        }
+      ],
+      "passed": true,
+      "qiskit": {
+        "points": 8,
+        "max_circuit_difference": 1.145944450442471e-12,
+        "gradient_relative_rms_error": 3.4988472362442193e-12,
+        "max_gradient_difference": 3.3232971929919586e-11,
+        "difference_step": 0.0001,
+        "original_circuit_evaluations": 136
+      }
+    },
+    {
+      "id": "extension_d04_s01",
+      "method": "variable-projection",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.9459730407057137e-13,
+          "gradient_relative_rms_error": 2.507299704463663e-13,
+          "hvp_relative_rms_error": 3.130407127674488e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 5.972692982351464e-13,
+          "gradient_relative_rms_error": 6.283187695248551e-13,
+          "hvp_relative_rms_error": 9.273474589883675e-13
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.737291547275787e-13,
+          "gradient_relative_rms_error": 6.044563853686438e-13,
+          "hvp_relative_rms_error": 7.074736156102076e-13
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 3.2336331777689127e-13,
+          "gradient_relative_rms_error": 3.8884049331602353e-13,
+          "hvp_relative_rms_error": 4.564461149403902e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "extension_d04_s01",
+      "method": "optimizer-portfolio",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.9459730407057137e-13,
+          "gradient_relative_rms_error": 2.507299704463663e-13,
+          "hvp_relative_rms_error": 3.130407127674488e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 5.972692982351464e-13,
+          "gradient_relative_rms_error": 6.283187695248551e-13,
+          "hvp_relative_rms_error": 9.273474589883675e-13
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.737291547275787e-13,
+          "gradient_relative_rms_error": 6.044563853686438e-13,
+          "hvp_relative_rms_error": 7.074736156102076e-13
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 3.2336331777689127e-13,
+          "gradient_relative_rms_error": 3.8884049331602353e-13,
+          "hvp_relative_rms_error": 4.564461149403902e-13
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

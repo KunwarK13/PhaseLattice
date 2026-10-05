@@ -1,0 +1,77 @@
+{
+  "independent_teachers": 3,
+  "rows": [
+    {
+      "shots": 1024,
+      "seed_index": 0,
+      "lattice_status": "UNRESOLVED",
+      "approximate_prediction": true,
+      "recovered": false,
+      "prediction_success": false,
+      "exact_link": true,
+      "direction_error": 0.00037616262481228235,
+      "test_mse": 1.3445403014042298e-05,
+      "loss_over_variance": 4.1368752226808736e-05
+    },
+    {
+      "shots": 1024,
+      "seed_index": 1,
+      "lattice_status": "UNRESOLVED",
+      "approximate_prediction": true,
+      "recovered": false,
+      "prediction_success": false,
+      "exact_link": true,
+      "direction_error": 0.0007590660527592435,
+      "test_mse": 1.249502767076911e-05,
+      "loss_over_variance": 3.9494592672514335e-05
+    },
+    {
+      "shots": 1024,
+      "seed_index": 2,
+      "lattice_status": "UNRESOLVED",
+      "approximate_prediction": true,
+      "recovered": false,
+      "prediction_success": false,
+      "exact_link": true,
+      "direction_error": 0.00022300477011431467,
+      "test_mse": 2.42246080827276e-06,
+      "loss_over_variance": 1.2926778151687e-05
+    },
+    {
+      "shots": 16384,
+      "seed_index": 0,
+      "lattice_status": "UNRESOLVED",
+      "approximate_prediction": true,
+      "recovered": false,
+      "prediction_success": false,
+      "exact_link": true,
+      "direction_error": 6.212941841477848e-05,
+      "test_mse": 3.829914689319781e-07,
+      "loss_over_variance": 1.1783863352166735e-06
+    },
+    {
+      "shots": 16384,
+      "seed_index": 1,
+      "lattice_status": "UNRESOLVED",
+      "approximate_prediction": true,
+      "recovered": false,
+      "prediction_success": false,
+      "exact_link": true,
+      "direction_error": 0.00033768451773797124,
+      "test_mse": 2.249927100595554e-06,
+      "loss_over_variance": 7.111625257841703e-06
+    },
+    {
+      "shots": 16384,
+      "seed_index": 2,
+      "lattice_status": "UNRESOLVED",
+      "approximate_prediction": true,
+      "recovered": true,
+      "prediction_success": true,
+      "exact_link": true,
+      "direction_error": 5.0344379719986965e-05,
+      "test_mse": 1.2651891055762727e-07,
+      "loss_over_variance": 6.751324451509676e-07
+    }
+  ]
+}

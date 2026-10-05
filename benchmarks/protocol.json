@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "precision_bits": 40,
+  "degree": 3,
+  "denominator": 4,
+  "training_rows": 1024,
+  "validation_rows": 128,
+  "test_rows": 2048,
+  "discrete_optimizer": {"starts": 256, "steps": 60},
+  "variable_projection": {"starts": 1024, "steps": 90, "subset_rows": 256, "finalists": 64, "transfer_directions": 16},
+  "success": {"correct_waveform": true, "weight_error": 0.0001, "test_mse_over_variance": 0.000001},
+  "derivative_distributions": ["gaussian", "scaled_gaussian", "translated_gaussian", "uniform"],
+  "derivative_points": 512,
+  "derivative_relative_error": 0.000001,
+  "precision_sweep": [12, 20, 28, 32, 36, 40],
+  "finite_shots": [1024, 16384]
+}

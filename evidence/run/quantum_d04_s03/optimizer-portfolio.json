@@ -1,0 +1,24 @@
+{
+  "method": "optimizer-portfolio",
+  "status": "FITTED",
+  "model": {
+    "k": [
+      1,
+      -1,
+      -2
+    ],
+    "Q": 4,
+    "theta": [
+      "5907246882932133/36028797018963968",
+      "6093331854804831/4503599627370496",
+      "7164554562456429/36028797018963968",
+      "5351426312054941/9007199254740992"
+    ]
+  },
+  "best_validation_mse": 8.19318291026743e-24,
+  "selected_method": "variable-projection",
+  "seconds": 26.301679869182408,
+  "public_sha256": "632a85960350a8e9230e224d1027e749d6f9fc3e0454381dbc14faabc7ba3d4b",
+  "selection": "validation MSE",
+  "uses_oracle": false
+}

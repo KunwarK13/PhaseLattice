@@ -1,0 +1,392 @@
+{
+  "schema": "phaselattice.audit/v1",
+  "passed": true,
+  "run_manifest_sha256": "eda50d8c5f57d020ab92ffe0783cbeb7d0d8efaf5582a386083412939cd0fe3f",
+  "source_files": 23,
+  "source_documentation_files_checked": 5,
+  "source_documentation_sha256": "f5c05c55c89dad52e4555ac4e06bc6bd20e6361c4ee77ae59d4fe3fe22aa1161",
+  "independent_models": 44,
+  "method_scores_recomputed": 264,
+  "reconstruction_counts": {
+    "reconstruction": 44,
+    "multistart-lm": 9,
+    "phase-projection": 10,
+    "optimizer-transfer": 15,
+    "variable-projection": 17,
+    "optimizer-portfolio": 19
+  },
+  "paired_timings": 6,
+  "precision_measurements": 36,
+  "ablation_measurements": 12,
+  "noisy_measurements": 6,
+  "derivative_records_checked": 132,
+  "figure_artifacts_checked": 15,
+  "animation_artifacts_checked": 4,
+  "standalone_template_sha256": "88d8663c876e6dd17de1d6755672c90ebd10804691c2f7eadf910f7e8d9512aa",
+  "checks": [
+    "Archived source matches the run manifest; current source differs only in recorded comments and docstrings",
+    "Public, reference and test files agree with cohort hashes",
+    "Canonical numerical observations agree with migration records",
+    "Every method score is recomputed on held-out data",
+    "Optimizer selection uses validation loss and counts constituent work",
+    "Recovered models match the frozen regression records",
+    "All recovered traces pass independent rational replay",
+    "Precision, noise and ablation scores agree with their result files",
+    "Derivative records and thresholds are internally consistent"
+  ],
+  "scope": "Integrity and score replay; derivative measurements require the derivatives stage to rerun",
+  "traces": [
+    {
+      "id": "analytic_d10_s00",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 5.342733713379979e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.0139851074614549e-23
+    },
+    {
+      "id": "analytic_d10_s01",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 9.684195864262331e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 3.426490652461924e-23
+    },
+    {
+      "id": "analytic_d10_s02",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 4.807263604702827e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.2049606851838526e-23
+    },
+    {
+      "id": "analytic_d10_s03",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 5.820513091406585e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.0284402818187167e-23
+    },
+    {
+      "id": "analytic_d10_s04",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 4.164554043184932e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.7653703310166915e-23
+    },
+    {
+      "id": "analytic_d10_s05",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 6.014059090584854e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 3.307650277411873e-23
+    },
+    {
+      "id": "analytic_d10_s06",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 6.847725747688504e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 2.9239705321150092e-24
+    },
+    {
+      "id": "analytic_d10_s07",
+      "valid": true,
+      "rows": 20,
+      "max_phase_residual": 8.461211549501327e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 9.569486872320363e-24
+    },
+    {
+      "id": "analytic_d03_s00",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 5.962514885743684e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 3.381568360066729e-23
+    },
+    {
+      "id": "analytic_d03_s01",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 8.526799608059226e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 6.03404340265781e-24
+    },
+    {
+      "id": "analytic_d03_s02",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 8.206730095559625e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 5.6155397689202566e-24
+    },
+    {
+      "id": "analytic_d03_s03",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 5.310354480670675e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 5.9128655104976185e-24
+    },
+    {
+      "id": "analytic_d03_s04",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 6.212409143758268e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 8.16727601679771e-24
+    },
+    {
+      "id": "analytic_d03_s05",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 3.530134690994119e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.1709357438314316e-23
+    },
+    {
+      "id": "analytic_d03_s06",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 3.8478099783472194e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.336128014297976e-23
+    },
+    {
+      "id": "analytic_d03_s07",
+      "valid": true,
+      "rows": 6,
+      "max_phase_residual": 4.3076939816497645e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.1244028141739809e-23
+    },
+    {
+      "id": "analytic_d06_s00",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 3.7543380688655226e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 6.90465961977885e-24
+    },
+    {
+      "id": "analytic_d06_s01",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 7.015403013894024e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 6.311961342135809e-24
+    },
+    {
+      "id": "analytic_d06_s02",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 5.016058318466223e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 6.896363798041848e-24
+    },
+    {
+      "id": "analytic_d06_s03",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 1.1822652064525442e-12,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 7.94465764147733e-24
+    },
+    {
+      "id": "analytic_d06_s04",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 8.191654579676459e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.1128121451567887e-23
+    },
+    {
+      "id": "analytic_d06_s05",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 2.973162018305606e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.4811243300935692e-23
+    },
+    {
+      "id": "analytic_d06_s06",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 4.538615929383067e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 5.154118762594306e-24
+    },
+    {
+      "id": "analytic_d06_s07",
+      "valid": true,
+      "rows": 12,
+      "max_phase_residual": 5.583758291118584e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 5.936249577911615e-24
+    },
+    {
+      "id": "quantum_d04_s00",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 9.38552492753223e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.0795359155962901e-23
+    },
+    {
+      "id": "quantum_d04_s01",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 4.616978313905077e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 4.005214123543138e-24
+    },
+    {
+      "id": "quantum_d04_s02",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 5.377674129893506e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 3.204242097972904e-24
+    },
+    {
+      "id": "quantum_d04_s03",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 2.547640630384606e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 2.2613722919129837e-23
+    },
+    {
+      "id": "quantum_d08_s00",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 3.370588716147734e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.622704534332506e-23
+    },
+    {
+      "id": "quantum_d08_s01",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 6.475611201543443e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.3630289252780584e-23
+    },
+    {
+      "id": "quantum_d08_s02",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 9.472982790043777e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 8.08676099113726e-24
+    },
+    {
+      "id": "quantum_d08_s03",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 8.670454007230095e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 7.09277415955099e-24
+    },
+    {
+      "id": "extension_d12_s00",
+      "valid": true,
+      "rows": 24,
+      "max_phase_residual": 6.243443386306608e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 5.774878285495768e-24
+    },
+    {
+      "id": "extension_d12_s01",
+      "valid": true,
+      "rows": 24,
+      "max_phase_residual": 8.600657235459861e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 5.671217151747116e-24
+    },
+    {
+      "id": "extension_d12_s02",
+      "valid": true,
+      "rows": 24,
+      "max_phase_residual": 1.2900948907146959e-12,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 9.52754770956675e-24
+    },
+    {
+      "id": "extension_d12_s03",
+      "valid": true,
+      "rows": 24,
+      "max_phase_residual": 8.702525585877388e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 4.0934611002841647e-23
+    },
+    {
+      "id": "extension_d04_s00",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 4.891155546644044e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.628867185458539e-23
+    },
+    {
+      "id": "extension_d04_s01",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 5.972372713404815e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 3.432655262697065e-24
+    },
+    {
+      "id": "extension_d04_s02",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 5.675410210031157e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 2.165784862615193e-23
+    },
+    {
+      "id": "extension_d04_s03",
+      "valid": true,
+      "rows": 8,
+      "max_phase_residual": 1.1400814717165661e-12,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.8823419743716863e-23
+    },
+    {
+      "id": "extension_d08_s00",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 4.910929732578107e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.1148522366019911e-23
+    },
+    {
+      "id": "extension_d08_s01",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 7.845446011152366e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 4.9590106039584274e-24
+    },
+    {
+      "id": "extension_d08_s02",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 6.000371665045572e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 7.692825425508789e-23
+    },
+    {
+      "id": "extension_d08_s03",
+      "valid": true,
+      "rows": 16,
+      "max_phase_residual": 7.3626325447584e-13,
+      "statement": "Consistent inverse phases and exact least-squares fit; not uniqueness",
+      "validation_mse": 1.2423509920563206e-23
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "k": [
+    0,
+    -2,
+    2
+  ],
+  "Q": 4,
+  "theta": [
+    0.41548021985714495,
+    -0.4297882654247039,
+    -1.3757391590743802
+  ],
+  "d": 3,
+  "gamma": 1.5,
+  "seed": 510305,
+  "provider": "analytic",
+  "provider_metadata": {},
+  "public_sha256": "ebd6af613a6731ea20d0f752edab1bfb829dee71f1a2f989113df5e2b415fdea"
+}

@@ -1,0 +1,110 @@
+{
+  "seed": 951034,
+  "rows": [
+    {
+      "id": "extension_d12_s02",
+      "method": "reconstruction",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 6.405635540485186e-12,
+          "gradient_relative_rms_error": 7.313780707333478e-12,
+          "hvp_relative_rms_error": 8.045572359382516e-12
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.8355106981939485e-11,
+          "gradient_relative_rms_error": 2.449335676689094e-11,
+          "hvp_relative_rms_error": 2.1424570848678284e-11
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.241036313917135e-11,
+          "gradient_relative_rms_error": 1.5779123172310304e-11,
+          "hvp_relative_rms_error": 1.5524350305107642e-11
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 9.84628116555919e-12,
+          "gradient_relative_rms_error": 1.2909376576394732e-11,
+          "hvp_relative_rms_error": 1.338414660230643e-11
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "extension_d12_s02",
+      "method": "variable-projection",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0027168486734588,
+          "gradient_relative_rms_error": 1.0000220221610556,
+          "hvp_relative_rms_error": 1.0000001237302705
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0584395201491659,
+          "gradient_relative_rms_error": 1.00001452350141,
+          "hvp_relative_rms_error": 0.9999998516094173
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0468149720206774,
+          "gradient_relative_rms_error": 1.0000115464695805,
+          "hvp_relative_rms_error": 1.000000079621607
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 1.0080209183336026,
+          "gradient_relative_rms_error": 1.000011601944205,
+          "hvp_relative_rms_error": 1.000000537210718
+        }
+      ],
+      "passed": false
+    },
+    {
+      "id": "extension_d12_s02",
+      "method": "optimizer-portfolio",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0027168486734588,
+          "gradient_relative_rms_error": 1.0000220221610556,
+          "hvp_relative_rms_error": 1.0000001237302705
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0584395201491659,
+          "gradient_relative_rms_error": 1.00001452350141,
+          "hvp_relative_rms_error": 0.9999998516094173
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0468149720206774,
+          "gradient_relative_rms_error": 1.0000115464695805,
+          "hvp_relative_rms_error": 1.000000079621607
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 1.0080209183336026,
+          "gradient_relative_rms_error": 1.000011601944205,
+          "hvp_relative_rms_error": 1.000000537210718
+        }
+      ],
+      "passed": false
+    }
+  ]
+}

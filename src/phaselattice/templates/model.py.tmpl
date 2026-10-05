@@ -1,0 +1,89 @@
+"""Recovered response model; requires no PhaseLattice installation."""
+
+from fractions import Fraction
+
+import numpy as np
+
+K = $coefficients
+Q = $denominator
+THETA_RATIONAL = $weights
+THETA = np.array([float(Fraction(value)) for value in THETA_RATIONAL])
+THETA.flags.writeable = False
+
+
+def _inputs(values):
+    values = np.asarray(values, dtype=np.float64)
+    if values.ndim == 0 or values.shape[-1] != len(THETA):
+        raise ValueError(f"Expected inputs with final dimension {len(THETA)}")
+    if not np.isfinite(values).all():
+        raise ValueError("Inputs must be finite")
+    return values
+
+
+def predict(inputs):
+    phase = _inputs(inputs) @ THETA
+    return sum(k * np.cos(2 * np.pi * j * phase) / Q for j, k in enumerate(K, 1))
+
+
+def gradient(inputs):
+    phase = _inputs(inputs) @ THETA
+    slope = sum(
+        -k * (2 * np.pi * j) * np.sin(2 * np.pi * j * phase) / Q
+        for j, k in enumerate(K, 1)
+    )
+    return np.asarray(slope)[..., None] * THETA
+
+
+def hessian_vector_product(inputs, vector):
+    phase = _inputs(inputs) @ THETA
+    curvature = sum(
+        -k * (2 * np.pi * j) ** 2 * np.cos(2 * np.pi * j * phase) / Q
+        for j, k in enumerate(K, 1)
+    )
+    projection = _inputs(vector) @ THETA
+    return (curvature * projection)[..., None] * THETA
+
+
+def as_qiskit():
+    """Return a circuit with the recovered expectation response."""
+    from qiskit import QuantumCircuit
+    from qiskit.circuit import ParameterVector
+    from qiskit.circuit.library import RYGate, StatePreparation, XGate
+    from qiskit.quantum_info import SparsePauliOp
+
+    features = ParameterVector("x", len(THETA))
+    selectors = max(1, int(np.ceil(np.log2(len(K)))))
+    circuit = QuantumCircuit(selectors + 1)
+    amplitudes = np.zeros(2**selectors)
+    amplitudes[: len(K)] = np.sqrt(np.abs(K) / Q)
+    circuit.append(StatePreparation(amplitudes), list(range(selectors)))
+    phase = 2 * np.pi * sum(float(weight) * x for weight, x in zip(THETA, features))
+    for j, coefficient in enumerate(K):
+        if coefficient:
+            rotation = RYGate((j + 1) * phase).control(
+                selectors, ctrl_state=j, annotated=False
+            )
+            circuit.append(rotation, list(range(selectors + 1)))
+            if coefficient < 0:
+                sign = XGate().control(selectors, ctrl_state=j, annotated=False)
+                circuit.append(sign, list(range(selectors + 1)))
+    return circuit, SparsePauliOp("Z" + "I" * selectors), features
+
+
+def as_torch():
+    """Return a float64 module with fixed weights and input autograd support."""
+    import torch
+
+    class RecoveredModel(torch.nn.Module):
+        def __init__(self):
+            super().__init__()
+            self.register_buffer("theta", torch.tensor(THETA.copy(), dtype=torch.float64))
+            self.register_buffer("beta", torch.tensor(K, dtype=torch.float64) / Q)
+            self.register_buffer(
+                "omega", 2 * torch.pi * torch.arange(1, len(K) + 1, dtype=torch.float64)
+            )
+
+        def forward(self, inputs):
+            return (torch.cos((inputs @ self.theta)[..., None] * self.omega) * self.beta).sum(-1)
+
+    return RecoveredModel()

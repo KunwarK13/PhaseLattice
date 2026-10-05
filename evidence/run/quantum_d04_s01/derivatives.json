@@ -1,0 +1,118 @@
+{
+  "seed": 951025,
+  "rows": [
+    {
+      "id": "quantum_d04_s01",
+      "method": "reconstruction",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 2.393774910901954e-12,
+          "gradient_relative_rms_error": 4.2832145088265685e-12,
+          "hvp_relative_rms_error": 3.736029496297746e-12
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 8.453432131608437e-12,
+          "gradient_relative_rms_error": 1.3030660085507869e-11,
+          "hvp_relative_rms_error": 1.7913075825888176e-11
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0747080599308724e-11,
+          "gradient_relative_rms_error": 1.4834225747239314e-11,
+          "hvp_relative_rms_error": 1.8767227501345134e-11
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 5.095634115381326e-12,
+          "gradient_relative_rms_error": 7.17882571423386e-12,
+          "hvp_relative_rms_error": 8.21372585201483e-12
+        }
+      ],
+      "passed": true,
+      "qiskit": {
+        "points": 8,
+        "max_circuit_difference": 9.983458504336795e-12,
+        "gradient_relative_rms_error": 2.228593652570422e-11,
+        "max_gradient_difference": 1.5213341697517535e-10,
+        "difference_step": 0.0001,
+        "original_circuit_evaluations": 136
+      }
+    },
+    {
+      "id": "quantum_d04_s01",
+      "method": "variable-projection",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 3.588690468930186e-13,
+          "gradient_relative_rms_error": 5.854312203553333e-13,
+          "hvp_relative_rms_error": 6.054875372348417e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.2477413431145753e-12,
+          "gradient_relative_rms_error": 1.7508984571409907e-12,
+          "hvp_relative_rms_error": 2.3700292364744117e-12
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 8.12254593852633e-13,
+          "gradient_relative_rms_error": 1.1386960796366668e-12,
+          "hvp_relative_rms_error": 1.469748336412208e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 6.997373686007568e-13,
+          "gradient_relative_rms_error": 9.678535130097201e-13,
+          "hvp_relative_rms_error": 1.1576671823147263e-12
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "quantum_d04_s01",
+      "method": "optimizer-portfolio",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 3.588690468930186e-13,
+          "gradient_relative_rms_error": 5.854312203553333e-13,
+          "hvp_relative_rms_error": 6.054875372348417e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.2477413431145753e-12,
+          "gradient_relative_rms_error": 1.7508984571409907e-12,
+          "hvp_relative_rms_error": 2.3700292364744117e-12
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 8.12254593852633e-13,
+          "gradient_relative_rms_error": 1.1386960796366668e-12,
+          "hvp_relative_rms_error": 1.469748336412208e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 6.997373686007568e-13,
+          "gradient_relative_rms_error": 9.678535130097201e-13,
+          "hvp_relative_rms_error": 1.1576671823147263e-12
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

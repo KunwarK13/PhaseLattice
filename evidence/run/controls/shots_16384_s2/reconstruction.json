@@ -1,0 +1,1941 @@
+{
+  "schema": "phaselattice.reconstruction/v1",
+  "method": "phaselattice",
+  "status": "UNRESOLVED",
+  "model": null,
+  "trace": null,
+  "best_validation_mse": null,
+  "acceptance_mse": 1e-08,
+  "candidates": 62,
+  "bands": 124,
+  "successful_lattice_hypotheses": 0,
+  "attempts": [
+    {
+      "k": [
+        -4
+      ],
+      "chi": 1,
+      "band": [
+        "-1/4",
+        "1/4"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.0028681596741080284,
+      "reduction_seconds": 0.001291036605834961
+    },
+    {
+      "k": [
+        -3,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-7/16",
+        "-1/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005232829600572586,
+      "reduction_seconds": 0.001363515853881836
+    },
+    {
+      "k": [
+        -3,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "131/256",
+        "133/256"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 7.76476226747036e-05
+    },
+    {
+      "k": [
+        -3,
+        0,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-5/8",
+        "-3/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007008546032011509,
+      "reduction_seconds": 0.0013401508331298828
+    },
+    {
+      "k": [
+        -3,
+        0,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "3/8",
+        "5/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006810637190937996,
+      "reduction_seconds": 0.0013430118560791016
+    },
+    {
+      "k": [
+        -3,
+        0,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-5280139/8388608",
+        "-38766441/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00012440234422683716
+    },
+    {
+      "k": [
+        -3,
+        0,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-1/8",
+        "1/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007728558033704758,
+      "reduction_seconds": 0.0014011859893798828
+    },
+    {
+      "k": [
+        -3,
+        0,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "38766441/67108864",
+        "5280139/8388608"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 8.066603913903236e-05
+    },
+    {
+      "k": [
+        -3,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-133/256",
+        "-131/256"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0011271871626377106
+    },
+    {
+      "k": [
+        -3,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "1/16",
+        "7/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.004801659844815731,
+      "reduction_seconds": 0.0013306140899658203
+    },
+    {
+      "k": [
+        -2,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "-5/8",
+        "-3/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.004871441051363945,
+      "reduction_seconds": 0.0013697147369384766
+    },
+    {
+      "k": [
+        -2,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "27/128",
+        "45/128"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007021053694188595,
+      "reduction_seconds": 0.0026259422302246094
+    },
+    {
+      "k": [
+        -2,
+        -1,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-37/64",
+        "-19/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007252794690430164,
+      "reduction_seconds": 0.0013689994812011719
+    },
+    {
+      "k": [
+        -2,
+        -1,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "3004947/8388608",
+        "13922759/33554432"
+      ],
+      "selected": 4,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.003381769172847271
+    },
+    {
+      "k": [
+        -2,
+        -1,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-36078781/67108864",
+        "-17534521/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009035089984536171,
+      "reduction_seconds": 0.0024738311767578125
+    },
+    {
+      "k": [
+        -2,
+        -1,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-5/16",
+        "-3/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007429279386997223,
+      "reduction_seconds": 0.00136566162109375
+    },
+    {
+      "k": [
+        -2,
+        -1,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "15/64",
+        "25/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008770104963332415,
+      "reduction_seconds": 0.0024039745330810547
+    },
+    {
+      "k": [
+        -2,
+        0,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "-24396157/33554432",
+        "-36581281/67108864"
+      ],
+      "selected": 3,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.002733611036092043
+    },
+    {
+      "k": [
+        -2,
+        0,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "36581281/67108864",
+        "24396157/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006761068943887949,
+      "reduction_seconds": 0.001104593276977539
+    },
+    {
+      "k": [
+        -2,
+        0,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-32287763/67108864",
+        "-19372659/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007924315053969622,
+      "reduction_seconds": 0.002077341079711914
+    },
+    {
+      "k": [
+        -2,
+        0,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "19372659/67108864",
+        "32287763/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008274915162473917,
+      "reduction_seconds": 0.0022361278533935547
+    },
+    {
+      "k": [
+        -2,
+        1,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-13922759/33554432",
+        "-3004947/8388608"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007660644128918648,
+      "reduction_seconds": 0.0012242794036865234
+    },
+    {
+      "k": [
+        -2,
+        1,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "19/64",
+        "37/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-div",
+      "seconds": 0.006566219963133335,
+      "reduction_seconds": 0.001280069351196289
+    },
+    {
+      "k": [
+        -2,
+        1,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-25/64",
+        "-15/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008751576766371727,
+      "reduction_seconds": 0.002360820770263672
+    },
+    {
+      "k": [
+        -2,
+        1,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "3/16",
+        "5/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007726951036602259,
+      "reduction_seconds": 0.0011169910430908203
+    },
+    {
+      "k": [
+        -2,
+        1,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "17534521/33554432",
+        "36078781/67108864"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.002259568776935339
+    },
+    {
+      "k": [
+        -2,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-45/128",
+        "-27/128"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005916586145758629,
+      "reduction_seconds": 0.002318143844604492
+    },
+    {
+      "k": [
+        -2,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "3/8",
+        "5/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005052649881690741,
+      "reduction_seconds": 0.0014481544494628906
+    },
+    {
+      "k": [
+        -1,
+        -3
+      ],
+      "chi": 1,
+      "band": [
+        "-13/16",
+        "-11/16"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0001375460997223854
+    },
+    {
+      "k": [
+        -1,
+        -3
+      ],
+      "chi": 2,
+      "band": [
+        "-1835007/67108864",
+        "9655637/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006691967137157917,
+      "reduction_seconds": 0.0023903846740722656
+    },
+    {
+      "k": [
+        -1,
+        -2,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-21393605/33554432",
+        "-26572775/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007281747180968523,
+      "reduction_seconds": 0.0014274120330810547
+    },
+    {
+      "k": [
+        -1,
+        -2,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "13893113/67108864",
+        "5788797/16777216"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009143434930592775,
+      "reduction_seconds": 0.0024242401123046875
+    },
+    {
+      "k": [
+        -1,
+        -2,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-1864135/33554432",
+        "16155837/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.010009496007114649,
+      "reduction_seconds": 0.002654552459716797
+    },
+    {
+      "k": [
+        -1,
+        -1,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "-48386001/67108864",
+        "-35904093/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007674781605601311,
+      "reduction_seconds": 0.0012302398681640625
+    },
+    {
+      "k": [
+        -1,
+        -1,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "34637999/67108864",
+        "35360375/67108864"
+      ],
+      "selected": 1,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0011699851602315903
+    },
+    {
+      "k": [
+        -1,
+        -1,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-17843743/33554432",
+        "-34834265/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009759590961039066,
+      "reduction_seconds": 0.0023953914642333984
+    },
+    {
+      "k": [
+        -1,
+        -1,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "9494559/33554432",
+        "31648529/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008503228891640902,
+      "reduction_seconds": 0.00222015380859375
+    },
+    {
+      "k": [
+        -1,
+        0,
+        -3
+      ],
+      "chi": 1,
+      "band": [
+        "-28880377/33554432",
+        "-25764341/33554432"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0001388820819556713
+    },
+    {
+      "k": [
+        -1,
+        0,
+        -3
+      ],
+      "chi": 1,
+      "band": [
+        "25764341/33554432",
+        "28880377/33554432"
+      ],
+      "selected": 5,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.004646752029657364
+    },
+    {
+      "k": [
+        -1,
+        0,
+        3
+      ],
+      "chi": 2,
+      "band": [
+        "-12356529/16777216",
+        "-43077443/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011714408174157143
+    },
+    {
+      "k": [
+        -1,
+        0,
+        3
+      ],
+      "chi": 2,
+      "band": [
+        "43077443/67108864",
+        "12356529/16777216"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008614903781563044,
+      "reduction_seconds": 0.0022330284118652344
+    },
+    {
+      "k": [
+        -1,
+        1,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "-35360375/67108864",
+        "-34637999/67108864"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.001963281538337469
+    },
+    {
+      "k": [
+        -1,
+        1,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "35904093/67108864",
+        "48386001/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006544009316712618,
+      "reduction_seconds": 0.00118255615234375
+    },
+    {
+      "k": [
+        -1,
+        1,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-31648529/67108864",
+        "-9494559/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007752866949886084,
+      "reduction_seconds": 0.0020797252655029297
+    },
+    {
+      "k": [
+        -1,
+        1,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "34834265/67108864",
+        "17843743/33554432"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0020770858973264694
+    },
+    {
+      "k": [
+        -1,
+        2,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-5788797/16777216",
+        "-13893113/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008170455228537321,
+      "reduction_seconds": 0.0020678043365478516
+    },
+    {
+      "k": [
+        -1,
+        2,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "26572775/67108864",
+        "21393605/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006199590861797333,
+      "reduction_seconds": 0.001102447509765625
+    },
+    {
+      "k": [
+        -1,
+        2,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-16155837/67108864",
+        "1864135/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008040172047913074,
+      "reduction_seconds": 0.0021567344665527344
+    },
+    {
+      "k": [
+        -1,
+        3
+      ],
+      "chi": 2,
+      "band": [
+        "-9655637/33554432",
+        "1835007/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005593947134912014,
+      "reduction_seconds": 0.0021982192993164062
+    },
+    {
+      "k": [
+        -1,
+        3
+      ],
+      "chi": 1,
+      "band": [
+        "11/16",
+        "13/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.0041030398570001125,
+      "reduction_seconds": 0.0011560916900634766
+    },
+    {
+      "k": [
+        0,
+        -3,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-13/16",
+        "-11/16"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011801300570368767
+    },
+    {
+      "k": [
+        0,
+        -3,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-7717/16777216",
+        "22318173/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.00798498885706067,
+      "reduction_seconds": 0.0021626949310302734
+    },
+    {
+      "k": [
+        0,
+        -3,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-13/16",
+        "-11/16"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011363904923200607
+    },
+    {
+      "k": [
+        0,
+        -3,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-7717/16777216",
+        "22318173/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008033372927457094,
+      "reduction_seconds": 0.001971721649169922
+    },
+    {
+      "k": [
+        0,
+        -2,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "-50854899/67108864",
+        "-10004731/16777216"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00010782899335026741
+    },
+    {
+      "k": [
+        0,
+        -2,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "20562703/67108864",
+        "17135585/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.0086362911388278,
+      "reduction_seconds": 0.0024230480194091797
+    },
+    {
+      "k": [
+        0,
+        -2,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "-50854899/67108864",
+        "-10004731/16777216"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00015162723138928413
+    },
+    {
+      "k": [
+        0,
+        -2,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "20562703/67108864",
+        "17135585/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008528050035238266,
+      "reduction_seconds": 0.002238750457763672
+    },
+    {
+      "k": [
+        0,
+        -1,
+        -3
+      ],
+      "chi": 1,
+      "band": [
+        "-3628011/4194304",
+        "-52007719/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011636503040790558
+    },
+    {
+      "k": [
+        0,
+        -1,
+        -3
+      ],
+      "chi": 2,
+      "band": [
+        "43316327/67108864",
+        "97313/131072"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.00888684717938304,
+      "reduction_seconds": 0.002206563949584961
+    },
+    {
+      "k": [
+        0,
+        -1,
+        3
+      ],
+      "chi": 1,
+      "band": [
+        "-3628011/4194304",
+        "-52007719/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00010969815775752068
+    },
+    {
+      "k": [
+        0,
+        -1,
+        3
+      ],
+      "chi": 2,
+      "band": [
+        "43316327/67108864",
+        "97313/131072"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008195195347070694,
+      "reduction_seconds": 0.0021657943725585938
+    },
+    {
+      "k": [
+        0,
+        1,
+        -3
+      ],
+      "chi": 2,
+      "band": [
+        "-97313/131072",
+        "-43316327/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00010936055332422256
+    },
+    {
+      "k": [
+        0,
+        1,
+        -3
+      ],
+      "chi": 1,
+      "band": [
+        "52007719/67108864",
+        "3628011/4194304"
+      ],
+      "selected": 5,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00524503830820322
+    },
+    {
+      "k": [
+        0,
+        1,
+        3
+      ],
+      "chi": 2,
+      "band": [
+        "-97313/131072",
+        "-43316327/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00010895729064941406
+    },
+    {
+      "k": [
+        0,
+        1,
+        3
+      ],
+      "chi": 1,
+      "band": [
+        "52007719/67108864",
+        "3628011/4194304"
+      ],
+      "selected": 5,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.004261267837136984
+    },
+    {
+      "k": [
+        0,
+        2,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "-17135585/33554432",
+        "-20562703/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008344217669218779,
+      "reduction_seconds": 0.0021369457244873047
+    },
+    {
+      "k": [
+        0,
+        2,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "10004731/16777216",
+        "50854899/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007122305687516928,
+      "reduction_seconds": 0.0011320114135742188
+    },
+    {
+      "k": [
+        0,
+        2,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-17135585/33554432",
+        "-20562703/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007555708289146423,
+      "reduction_seconds": 0.001909017562866211
+    },
+    {
+      "k": [
+        0,
+        2,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "10004731/16777216",
+        "50854899/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006314469035714865,
+      "reduction_seconds": 0.0011658668518066406
+    },
+    {
+      "k": [
+        0,
+        3,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-22318173/67108864",
+        "7717/16777216"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.00785239227116108,
+      "reduction_seconds": 0.0019698143005371094
+    },
+    {
+      "k": [
+        0,
+        3,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "11/16",
+        "13/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006853370927274227,
+      "reduction_seconds": 0.0010685920715332031
+    },
+    {
+      "k": [
+        0,
+        3,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-22318173/67108864",
+        "7717/16777216"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007567963097244501,
+      "reduction_seconds": 0.0020093917846679688
+    },
+    {
+      "k": [
+        0,
+        3,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "11/16",
+        "13/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006499480921775103,
+      "reduction_seconds": 0.0011563301086425781
+    },
+    {
+      "k": [
+        1,
+        -3
+      ],
+      "chi": 1,
+      "band": [
+        "-13/16",
+        "-11/16"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011481111869215965
+    },
+    {
+      "k": [
+        1,
+        -3
+      ],
+      "chi": 2,
+      "band": [
+        "-1835007/67108864",
+        "9655637/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005462095141410828,
+      "reduction_seconds": 0.002108335494995117
+    },
+    {
+      "k": [
+        1,
+        -2,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-1864135/33554432",
+        "16155837/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008041230961680412,
+      "reduction_seconds": 0.0021729469299316406
+    },
+    {
+      "k": [
+        1,
+        -2,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-21393605/33554432",
+        "-26572775/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006642772350460291,
+      "reduction_seconds": 0.0011310577392578125
+    },
+    {
+      "k": [
+        1,
+        -2,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "13893113/67108864",
+        "5788797/16777216"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008021866902709007,
+      "reduction_seconds": 0.0020928382873535156
+    },
+    {
+      "k": [
+        1,
+        -1,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "-17843743/33554432",
+        "-34834265/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009002549108117819,
+      "reduction_seconds": 0.0022573471069335938
+    },
+    {
+      "k": [
+        1,
+        -1,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "9494559/33554432",
+        "31648529/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008320527151226997,
+      "reduction_seconds": 0.0021865367889404297
+    },
+    {
+      "k": [
+        1,
+        -1,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "-48386001/67108864",
+        "-35904093/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007587314583361149,
+      "reduction_seconds": 0.00128936767578125
+    },
+    {
+      "k": [
+        1,
+        -1,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "34637999/67108864",
+        "35360375/67108864"
+      ],
+      "selected": 1,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0011654598638415337
+    },
+    {
+      "k": [
+        1,
+        0,
+        -3
+      ],
+      "chi": 2,
+      "band": [
+        "-12356529/16777216",
+        "-43077443/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011355755850672722
+    },
+    {
+      "k": [
+        1,
+        0,
+        -3
+      ],
+      "chi": 2,
+      "band": [
+        "43077443/67108864",
+        "12356529/16777216"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009824108798056841,
+      "reduction_seconds": 0.002227306365966797
+    },
+    {
+      "k": [
+        1,
+        0,
+        3
+      ],
+      "chi": 1,
+      "band": [
+        "-28880377/33554432",
+        "-25764341/33554432"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00012270500883460045
+    },
+    {
+      "k": [
+        1,
+        0,
+        3
+      ],
+      "chi": 1,
+      "band": [
+        "25764341/33554432",
+        "28880377/33554432"
+      ],
+      "selected": 5,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0045307171531021595
+    },
+    {
+      "k": [
+        1,
+        1,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "-31648529/67108864",
+        "-9494559/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.008452191017568111,
+      "reduction_seconds": 0.0021970272064208984
+    },
+    {
+      "k": [
+        1,
+        1,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "34834265/67108864",
+        "17843743/33554432"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.002189015969634056
+    },
+    {
+      "k": [
+        1,
+        1,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-35360375/67108864",
+        "-34637999/67108864"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.002010081894695759
+    },
+    {
+      "k": [
+        1,
+        1,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "35904093/67108864",
+        "48386001/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006765393074601889,
+      "reduction_seconds": 0.0012621879577636719
+    },
+    {
+      "k": [
+        1,
+        2,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-16155837/67108864",
+        "1864135/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009064329788088799,
+      "reduction_seconds": 0.0021691322326660156
+    },
+    {
+      "k": [
+        1,
+        2,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-5788797/16777216",
+        "-13893113/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007962467148900032,
+      "reduction_seconds": 0.002069234848022461
+    },
+    {
+      "k": [
+        1,
+        2,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "26572775/67108864",
+        "21393605/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006488202139735222,
+      "reduction_seconds": 0.0012118816375732422
+    },
+    {
+      "k": [
+        1,
+        3
+      ],
+      "chi": 2,
+      "band": [
+        "-9655637/33554432",
+        "1835007/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005797292105853558,
+      "reduction_seconds": 0.0021734237670898438
+    },
+    {
+      "k": [
+        1,
+        3
+      ],
+      "chi": 1,
+      "band": [
+        "11/16",
+        "13/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.004236605018377304,
+      "reduction_seconds": 0.0011243820190429688
+    },
+    {
+      "k": [
+        2,
+        -2
+      ],
+      "chi": 1,
+      "band": [
+        "-5/8",
+        "-3/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.004113133996725082,
+      "reduction_seconds": 0.0011210441589355469
+    },
+    {
+      "k": [
+        2,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "27/128",
+        "45/128"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005413132254034281,
+      "reduction_seconds": 0.002053976058959961
+    },
+    {
+      "k": [
+        2,
+        -1,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-36078781/67108864",
+        "-17534521/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.009050677996128798,
+      "reduction_seconds": 0.001959562301635742
+    },
+    {
+      "k": [
+        2,
+        -1,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-5/16",
+        "-3/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007764605805277824,
+      "reduction_seconds": 0.0011548995971679688
+    },
+    {
+      "k": [
+        2,
+        -1,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "15/64",
+        "25/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007784368935972452,
+      "reduction_seconds": 0.0020711421966552734
+    },
+    {
+      "k": [
+        2,
+        -1,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-37/64",
+        "-19/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005932492204010487,
+      "reduction_seconds": 0.0011265277862548828
+    },
+    {
+      "k": [
+        2,
+        -1,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "3004947/8388608",
+        "13922759/33554432"
+      ],
+      "selected": 4,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0034287702292203903
+    },
+    {
+      "k": [
+        2,
+        0,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "-32287763/67108864",
+        "-19372659/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007790896110236645,
+      "reduction_seconds": 0.0020356178283691406
+    },
+    {
+      "k": [
+        2,
+        0,
+        -2
+      ],
+      "chi": 2,
+      "band": [
+        "19372659/67108864",
+        "32287763/67108864"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007653064094483852,
+      "reduction_seconds": 0.0020685195922851562
+    },
+    {
+      "k": [
+        2,
+        0,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "-24396157/33554432",
+        "-36581281/67108864"
+      ],
+      "selected": 3,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0024633249267935753
+    },
+    {
+      "k": [
+        2,
+        0,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "36581281/67108864",
+        "24396157/33554432"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006241241004317999,
+      "reduction_seconds": 0.0010845661163330078
+    },
+    {
+      "k": [
+        2,
+        1,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-25/64",
+        "-15/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.0076983910985291,
+      "reduction_seconds": 0.0020983219146728516
+    },
+    {
+      "k": [
+        2,
+        1,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "3/16",
+        "5/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006955929100513458,
+      "reduction_seconds": 0.0012471675872802734
+    },
+    {
+      "k": [
+        2,
+        1,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "17534521/33554432",
+        "36078781/67108864"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0020423089154064655
+    },
+    {
+      "k": [
+        2,
+        1,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-13922759/33554432",
+        "-3004947/8388608"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006922928616404533,
+      "reduction_seconds": 0.0013723373413085938
+    },
+    {
+      "k": [
+        2,
+        1,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "19/64",
+        "37/64"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007014481816440821,
+      "reduction_seconds": 0.0013704299926757812
+    },
+    {
+      "k": [
+        2,
+        2
+      ],
+      "chi": 2,
+      "band": [
+        "-45/128",
+        "-27/128"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007063509896397591,
+      "reduction_seconds": 0.002656698226928711
+    },
+    {
+      "k": [
+        2,
+        2
+      ],
+      "chi": 1,
+      "band": [
+        "3/8",
+        "5/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.004896242171525955,
+      "reduction_seconds": 0.0014188289642333984
+    },
+    {
+      "k": [
+        3,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-7/16",
+        "-1/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.00489441305398941,
+      "reduction_seconds": 0.0013232231140136719
+    },
+    {
+      "k": [
+        3,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "131/256",
+        "133/256"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 8.640578016638756e-05
+    },
+    {
+      "k": [
+        3,
+        0,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "-5280139/8388608",
+        "-38766441/67108864"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.00011523906141519547
+    },
+    {
+      "k": [
+        3,
+        0,
+        -1
+      ],
+      "chi": 1,
+      "band": [
+        "-1/8",
+        "1/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.007266534958034754,
+      "reduction_seconds": 0.0011713504791259766
+    },
+    {
+      "k": [
+        3,
+        0,
+        -1
+      ],
+      "chi": 2,
+      "band": [
+        "38766441/67108864",
+        "5280139/8388608"
+      ],
+      "selected": 0,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 8.282018825411797e-05
+    },
+    {
+      "k": [
+        3,
+        0,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "-5/8",
+        "-3/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.006671146955341101,
+      "reduction_seconds": 0.0012216567993164062
+    },
+    {
+      "k": [
+        3,
+        0,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "3/8",
+        "5/8"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.00709487684071064,
+      "reduction_seconds": 0.0012717247009277344
+    },
+    {
+      "k": [
+        3,
+        1
+      ],
+      "chi": 2,
+      "band": [
+        "-133/256",
+        "-131/256"
+      ],
+      "selected": 2,
+      "status": "INSUFFICIENT_SELECTED_ROWS",
+      "seconds": 0.0013069631531834602
+    },
+    {
+      "k": [
+        3,
+        1
+      ],
+      "chi": 1,
+      "band": [
+        "1/16",
+        "7/16"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.005078160669654608,
+      "reduction_seconds": 0.0011470317840576172
+    },
+    {
+      "k": [
+        4
+      ],
+      "chi": 1,
+      "band": [
+        "-1/4",
+        "1/4"
+      ],
+      "selected": 6,
+      "status": "FAIL-onehot",
+      "seconds": 0.0026908288709819317,
+      "reduction_seconds": 0.0012094974517822266
+    }
+  ],
+  "seconds": 0.6693151197396219,
+  "reduction_seconds": 0.1493368148803711,
+  "family_compile_seconds": 2.6875988109968603,
+  "selected_rows": 6,
+  "screening": null,
+  "raw_train_rows": 256,
+  "raw_validation_rows": 128,
+  "public_sha256": "19cec7dbf1e3ea0d6dee94f899b772cd554919ebcac3e62e677f9867403bff19",
+  "family_sha256": "a239033b5c933a8ddee923e1222d5ad2181759cd4d3abdc14480392832660a87"
+}

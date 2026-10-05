@@ -1,0 +1,23 @@
+{
+  "method": "optimizer-portfolio",
+  "status": "FITTED",
+  "model": {
+    "k": [
+      -1,
+      2,
+      1
+    ],
+    "Q": 4,
+    "theta": [
+      "3697821771202515/9007199254740992",
+      "-6467662061455527/4503599627370496",
+      "4972227535450369/36028797018963968"
+    ]
+  },
+  "best_validation_mse": 5.529483286344677e-24,
+  "selected_method": "optimizer-transfer",
+  "seconds": 27.574266801122576,
+  "public_sha256": "ac27cf6239135fe1618503285ffb4078fb18e8cdf92108e7d11f8d9d3fa9c56b",
+  "selection": "validation MSE",
+  "uses_oracle": false
+}

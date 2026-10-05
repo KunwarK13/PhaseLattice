@@ -1,0 +1,118 @@
+{
+  "seed": 951026,
+  "rows": [
+    {
+      "id": "quantum_d04_s02",
+      "method": "reconstruction",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.421404927326733e-13,
+          "gradient_relative_rms_error": 4.812027242187191e-13,
+          "hvp_relative_rms_error": 4.640034604005181e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.2824268932289168e-12,
+          "gradient_relative_rms_error": 1.3057932853252488e-12,
+          "hvp_relative_rms_error": 1.3430221322700547e-12
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.548672734302841e-12,
+          "gradient_relative_rms_error": 1.7890143051781681e-12,
+          "hvp_relative_rms_error": 1.565741121515593e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 7.346489012626669e-13,
+          "gradient_relative_rms_error": 6.916948863587525e-13,
+          "hvp_relative_rms_error": 7.745072841556591e-13
+        }
+      ],
+      "passed": true,
+      "qiskit": {
+        "points": 8,
+        "max_circuit_difference": 2.123523579200537e-12,
+        "gradient_relative_rms_error": 5.517269543210277e-12,
+        "max_gradient_difference": 4.9475534780185626e-11,
+        "difference_step": 0.0001,
+        "original_circuit_evaluations": 136
+      }
+    },
+    {
+      "id": "quantum_d04_s02",
+      "method": "variable-projection",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.2395591806521179e-13,
+          "gradient_relative_rms_error": 1.315178551086926e-13,
+          "hvp_relative_rms_error": 1.2791578991062838e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 3.9088569787912855e-13,
+          "gradient_relative_rms_error": 3.9444863420038196e-13,
+          "hvp_relative_rms_error": 4.229147134101727e-13
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 2.7938120328138525e-13,
+          "gradient_relative_rms_error": 3.31015287197934e-13,
+          "hvp_relative_rms_error": 2.7999899838610524e-13
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 2.279725348918281e-13,
+          "gradient_relative_rms_error": 2.0803145569745593e-13,
+          "hvp_relative_rms_error": 2.1955977511655734e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "quantum_d04_s02",
+      "method": "optimizer-portfolio",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.2395591806521179e-13,
+          "gradient_relative_rms_error": 1.315178551086926e-13,
+          "hvp_relative_rms_error": 1.2791578991062838e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 3.9088569787912855e-13,
+          "gradient_relative_rms_error": 3.9444863420038196e-13,
+          "hvp_relative_rms_error": 4.229147134101727e-13
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 2.7938120328138525e-13,
+          "gradient_relative_rms_error": 3.31015287197934e-13,
+          "hvp_relative_rms_error": 2.7999899838610524e-13
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 2.279725348918281e-13,
+          "gradient_relative_rms_error": 2.0803145569745593e-13,
+          "hvp_relative_rms_error": 2.1955977511655734e-13
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

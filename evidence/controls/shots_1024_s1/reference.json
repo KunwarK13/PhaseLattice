@@ -1,0 +1,31 @@
+{
+  "k": [
+    3,
+    0,
+    -1
+  ],
+  "Q": 4,
+  "theta": [
+    0.6128123702234994,
+    1.326481768935673,
+    0.33897952088930744
+  ],
+  "d": 3,
+  "gamma": 1.5,
+  "seed": 710301,
+  "provider": "qiskit",
+  "provider_metadata": {
+    "qubits": 3,
+    "observable": "Z on response qubit",
+    "shots_per_example": 1024,
+    "total_shots": 393216,
+    "circuit_ops": {
+      "state_preparation": 1,
+      "ccry_o0": 1,
+      "ccry_o2": 1,
+      "ccx_o2": 1
+    },
+    "max_error_vs_analytic": 0.11364316280896153
+  },
+  "public_sha256": "a854e8387f3275429555471b27cdafb1eca36e34f427f65613da53cb3b418c97"
+}

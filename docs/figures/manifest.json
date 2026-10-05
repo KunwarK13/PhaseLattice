@@ -1,0 +1,34 @@
+{
+  "schema": "phaselattice.figures/v1",
+  "generator_sha256": "ac48351aaf85bc5a178492b0c438c65660496c71f01999e99fb9d2450de9edb4",
+  "inputs": {
+    "summary.json": "0bc1bcc17280a212edc742f8419f50a47fd896f2212d7475b9a52d8c4a74df93",
+    "derivatives.json": "94e167f34f0ee920caadbc95d4ae5f3b70ba8c8e1ce67444d0adf403fffe093f",
+    "timing.json": "581436764338b775f793133ca9b6f441c56507841bfa0eb7a941c765786c1fc9",
+    "precision.json": "8df22a6df0aafa483c7609e93a060402b829db1d19285134dc9634f3e7884fda",
+    "ablations.json": "e1a0162d639f8ec1d87263087e35537e14c640319322e11bd26875b4bc613589",
+    "noise.json": "a70990525ef1f09467f44cb102fbedf327f4307acb8475045597c2a45a001717"
+  },
+  "overview": {
+    "case": "analytic_d03_s01",
+    "reconstruction_sha256": "5c7cf4e7283271f7638e3b172d18a2fe0b00098884788ac6f590666089aca6c9",
+    "public_sha256": "f9fb0556e2a873e7275e6cce827b098b3a24a1b7e7ad0dd1355dbb5159231564"
+  },
+  "artifacts": {
+    "derivatives.pdf": "d1eab30166330e0c60bad29e060d4856198b7934c2df5807c50bb3c2f11a71e6",
+    "derivatives.png": "c1d665d184cd647e21c032ef559694209db9476cf607e2189a68a7636aa69c40",
+    "derivatives.svg": "87dabb70e0c509631fed5bb1a5b6720b8b4ccc43b14af7472c96af1e5ef46b65",
+    "filtering.pdf": "6c4e333db79edb4ac7003066bb8b5a566aa3c5fbd2c8b319a2df1cdf7b68f3fe",
+    "filtering.png": "3f6c3b0a04910b50496d24d7c5fec20d6e0c9f7dd3f508aafd08b3e999028f49",
+    "filtering.svg": "a9238daa82ad18baf8020c4db8d3b73cf831534d2693d5aee9811c87d2c49235",
+    "overview.pdf": "8cc1cac2f6d008b29c03b6ee13f5a2f97d81df7dfb4f24ecfaa915013dc51587",
+    "overview.png": "e28164a5502912bc6b825dd17a6325f3dd1118afe92825c5c667f411aed4ffa8",
+    "overview.svg": "3fc58322065d559223d1b00c3b0d936165f1f894102f935a7d09d1042a075224",
+    "precision.pdf": "105f98ee72cdb57701672cd8a8d6c6a36305a0a80e79fc0d545a9cd1cbcb33d9",
+    "precision.png": "fd1a6ecfd1548fbb61e6f9ec0d2aec46b4f06838c7eaab66e0d150593b3237ac",
+    "precision.svg": "4191039749216f86d5a6138c9b194aacc9796f862e4d6db18d07229e1f364d5b",
+    "recovery.pdf": "50f63d949c4627a174e0b9dfc1b4161235f7c001b24362b74e0e8c54fc61aaa1",
+    "recovery.png": "39d0fce079e41bbe3649d996fbf858aa088eedb4adb363e97c6096b5efd14b0b",
+    "recovery.svg": "5e2730bd2591e5703ef24bba4da59f6694a68b01a691d1f9ab41ab85663242e7"
+  }
+}

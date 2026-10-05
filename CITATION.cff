@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this software and the relevant algorithmic references in docs/references.md."
+title: "PhaseLattice: model reconstruction from periodic observations"
+type: software
+version: 0.1.0
+date-released: 2026-09-28
+authors:
+  - name: "PhaseLattice contributors"
+license: MIT
+keywords:
+  - model reconstruction
+  - inverse problems
+  - lattice reduction
+  - quantum machine learning

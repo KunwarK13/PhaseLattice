@@ -1,0 +1,27 @@
+{
+  "schema": "phaselattice.source-documentation/v1",
+  "run_manifest_sha256": "eda50d8c5f57d020ab92ffe0783cbeb7d0d8efaf5582a386083412939cd0fe3f",
+  "scope": "Comment and docstring edits only. The audit checks exact file hashes and Python syntax trees with docstrings removed against the original source archive.",
+  "files": {
+    "src/phaselattice/api.py": {
+      "benchmark_sha256": "0bdca5ee710e741212516c79785a66c71f215bc8f41b525e6334613381da54bf",
+      "current_sha256": "d2a82e836ca853593ce8800f8fb416c2b5b886ae3d22481611bb683fee3f354d"
+    },
+    "src/phaselattice/baselines/least_squares.py": {
+      "benchmark_sha256": "928726119e87378c1fb2c77a6fb2a383a355ef1ffa529e49e2e69c92618adee7",
+      "current_sha256": "4da691d82e7f5d641c9380c639ec2af76317070a14288d8cce00d1b99bc96ee0"
+    },
+    "src/phaselattice/baselines/variable_projection.py": {
+      "benchmark_sha256": "c4c67c24dbf7e9e66f02580b3ff836e669ebe60ee4340f7779460e4a75f3c3e1",
+      "current_sha256": "33fd5415de75ce3be0f3d5894f819afdc628a025ac2e83c6c36437d00b5e4f97"
+    },
+    "src/phaselattice/sampling.py": {
+      "benchmark_sha256": "d8e077bea0b834a57e6fa565fa82a06dba4f837ab362c8d0ef9b2eb6525fe9bf",
+      "current_sha256": "f54eff9944beadd2d317be502ec5674df7a9795637be5a8f1927420b557ab0fd"
+    },
+    "benchmarks/run.py": {
+      "benchmark_sha256": "9afa156343e79b37160972d8d84104b9c57699f69f3f2f6ca943c5a582e7beef",
+      "current_sha256": "3d0a8856722fc937fa160ba50c9db22604a47a4a8ca93c88551f084693f770f5"
+    }
+  }
+}

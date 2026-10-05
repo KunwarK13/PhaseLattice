@@ -1,0 +1,118 @@
+{
+  "seed": 951024,
+  "rows": [
+    {
+      "id": "quantum_d04_s00",
+      "method": "reconstruction",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.778458788104431e-12,
+          "gradient_relative_rms_error": 5.1645212129643555e-12,
+          "hvp_relative_rms_error": 4.868831402475404e-12
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.4288993104719542e-11,
+          "gradient_relative_rms_error": 1.575897221061832e-11,
+          "hvp_relative_rms_error": 1.8404572980352976e-11
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.5355314041140435e-12,
+          "gradient_relative_rms_error": 4.662294638982778e-12,
+          "hvp_relative_rms_error": 5.06605260148962e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 7.911806870768071e-12,
+          "gradient_relative_rms_error": 8.543044888138122e-12,
+          "hvp_relative_rms_error": 9.175730598022929e-12
+        }
+      ],
+      "passed": true,
+      "qiskit": {
+        "points": 8,
+        "max_circuit_difference": 3.799682790628367e-12,
+        "gradient_relative_rms_error": 4.919307121700634e-12,
+        "max_gradient_difference": 6.598854795925035e-11,
+        "difference_step": 0.0001,
+        "original_circuit_evaluations": 136
+      }
+    },
+    {
+      "id": "quantum_d04_s00",
+      "method": "variable-projection",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.909173875956299e-13,
+          "gradient_relative_rms_error": 5.422143462016435e-13,
+          "hvp_relative_rms_error": 4.754620649030218e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.5001909845180224e-12,
+          "gradient_relative_rms_error": 1.6364717539614798e-12,
+          "hvp_relative_rms_error": 1.748849458352843e-12
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0597633724282717e-12,
+          "gradient_relative_rms_error": 1.0712625834764607e-12,
+          "hvp_relative_rms_error": 1.2161370542870756e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 8.833595159010965e-13,
+          "gradient_relative_rms_error": 9.113271496856614e-13,
+          "hvp_relative_rms_error": 1.0026777129164663e-12
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "quantum_d04_s00",
+      "method": "optimizer-portfolio",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 4.909173875956299e-13,
+          "gradient_relative_rms_error": 5.422143462016435e-13,
+          "hvp_relative_rms_error": 4.754620649030218e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.5001909845180224e-12,
+          "gradient_relative_rms_error": 1.6364717539614798e-12,
+          "hvp_relative_rms_error": 1.748849458352843e-12
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 1.0597633724282717e-12,
+          "gradient_relative_rms_error": 1.0712625834764607e-12,
+          "hvp_relative_rms_error": 1.2161370542870756e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 8.833595159010965e-13,
+          "gradient_relative_rms_error": 9.113271496856614e-13,
+          "hvp_relative_rms_error": 1.0026777129164663e-12
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

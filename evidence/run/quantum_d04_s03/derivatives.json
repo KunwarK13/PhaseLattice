@@ -1,0 +1,118 @@
+{
+  "seed": 951027,
+  "rows": [
+    {
+      "id": "quantum_d04_s03",
+      "method": "reconstruction",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 7.1263401563733e-12,
+          "gradient_relative_rms_error": 8.925307304148444e-12,
+          "hvp_relative_rms_error": 8.369529562516688e-12
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 2.6055927933468846e-11,
+          "gradient_relative_rms_error": 2.599984489160128e-11,
+          "hvp_relative_rms_error": 2.8334930180864146e-11
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 8.13912389205363e-12,
+          "gradient_relative_rms_error": 9.748999034703795e-12,
+          "hvp_relative_rms_error": 9.100720327292456e-12
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 1.3971953750318159e-11,
+          "gradient_relative_rms_error": 1.549336047073445e-11,
+          "hvp_relative_rms_error": 1.4019817046932998e-11
+        }
+      ],
+      "passed": true,
+      "qiskit": {
+        "points": 8,
+        "max_circuit_difference": 4.034106382277969e-12,
+        "gradient_relative_rms_error": 1.0385491514880172e-11,
+        "max_gradient_difference": 1.6181811446358552e-10,
+        "difference_step": 0.0001,
+        "original_circuit_evaluations": 136
+      }
+    },
+    {
+      "id": "quantum_d04_s03",
+      "method": "variable-projection",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 2.4381910558406715e-13,
+          "gradient_relative_rms_error": 3.0342666116340497e-13,
+          "hvp_relative_rms_error": 2.7314503263045197e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 7.900689103845554e-13,
+          "gradient_relative_rms_error": 8.605083747773681e-13,
+          "hvp_relative_rms_error": 9.030189816680494e-13
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 3.9359532742766043e-13,
+          "gradient_relative_rms_error": 4.555995186146497e-13,
+          "hvp_relative_rms_error": 4.502447781297261e-13
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 4.93983760319811e-13,
+          "gradient_relative_rms_error": 5.259968129922204e-13,
+          "hvp_relative_rms_error": 4.90731770552447e-13
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "quantum_d04_s03",
+      "method": "optimizer-portfolio",
+      "distributions": [
+        {
+          "distribution": "gaussian",
+          "points": 512,
+          "output_relative_rms_error": 2.4381910558406715e-13,
+          "gradient_relative_rms_error": 3.0342666116340497e-13,
+          "hvp_relative_rms_error": 2.7314503263045197e-13
+        },
+        {
+          "distribution": "scaled_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 7.900689103845554e-13,
+          "gradient_relative_rms_error": 8.605083747773681e-13,
+          "hvp_relative_rms_error": 9.030189816680494e-13
+        },
+        {
+          "distribution": "translated_gaussian",
+          "points": 512,
+          "output_relative_rms_error": 3.9359532742766043e-13,
+          "gradient_relative_rms_error": 4.555995186146497e-13,
+          "hvp_relative_rms_error": 4.502447781297261e-13
+        },
+        {
+          "distribution": "uniform",
+          "points": 512,
+          "output_relative_rms_error": 4.93983760319811e-13,
+          "gradient_relative_rms_error": 5.259968129922204e-13,
+          "hvp_relative_rms_error": 4.90731770552447e-13
+        }
+      ],
+      "passed": true
+    }
+  ]
+}
